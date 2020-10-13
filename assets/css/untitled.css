@@ -1,0 +1,35 @@
+.headerDiv {
+  margin: 0;
+  height: auto;
+  width: 100%;
+  max-width: none;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  border: 3px solid rgb(29,108,180, .7);
+  padding: 3px;
+  background: rgba(255,255,255,0.61);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(33,37,41,0.38);
+}
+
+.portfolio-block.block-intro .bodyDiv {
+  /*margin: 0;*/
+  /*height: auto;*/
+  /*width: 100%;*/
+  /*max-width: none;*/
+  margin-top: 10px;
+  /*margin-bottom: 10px;*/
+  /*margin-right: 0px;*/
+  /*border: 3px solid rgb(29,108,180, .7);*/
+  /*padding: 3px;*/
+  /*background: rgba(255,255,255,0.61);*/
+  /*border-radius: 10px;*/
+  /*box-shadow: 3px 3px 6px rgba(33,37,41,0.38);*/
+}
+
+.portfolio-navbar.fixed-top + .page {
+  padding-top: 0px;
+  background: linear-gradient(rgb(215,238,255), rgba(214,235,255,0.62)), rgba(30,158,254,0.26);
+}
+

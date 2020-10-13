@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#" style="font-size: 50dp;letter-spacing: 0px;margin-left: 10px;">Z-Scores Interactive</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="chartinfo.html">Open-Source Chart</a></li>
+                    <li class="nav-item" style="padding: 0px;"><a class="nav-link" href="credits.html">Credits</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="d-flex page lanidng-page">
+        <section class="flex-grow-1 flex-shrink-1 portfolio-block block-intro" style="padding: 0px;padding-top: 10px;width: 100%;padding-right: 0px;padding-bottom: 10px;padding-left: 0px;height: auto;">
+            <div class="container" style="margin: 20px;padding-bottom: 20px;padding-top: 0;padding-right: 0%;padding-left: 0%;margin-right: 5%;margin-left: 5%;margin-top: 88px;width: auto;height: auto;min-height: none;max-width: none;border-style: none;">
+                <!-- Start: 1. Header Div -->
+                <div class="headerDiv">
+                    <h1 style="width: 100%;font-size: 36px;margin-bottom: 0;padding: 5px;margin-top: 0;height: auto;border-style: none;border-color: rgb(36,125,193);">First off, the Z-Score Chart:</h1>
+                </div>
+                <!-- End: 1. Header Div -->
+                <div class="embed-responsive embed-responsive-21by9 headerDiv"><iframe class="embed-responsive-item" src="Chart/zscoreChart.html"></iframe></div>
+                <!-- Start: 1. Header Div -->
+                <div class="headerDiv">
+                    <h1>Z-Scores and P-Values:</h1>
+                </div>
+                <!-- End: 1. Header Div -->
+                <!-- Start: 1. Paragraph Div -->
+                <div class="headerDiv bodyDiv">
+                    <h3 class="text-left" style="padding: 3px;margin: 5px;margin-bottom: 2px;margin-top: 5px;height: auto;font-size: 26px;padding-bottom: 2px;margin-left: 5px;line-height: 29px;">Definition:</h3>
+                    <p style="width: 100%;text-align: left;padding: 10px;padding-top: 3px;color: rgb(0,0,0);font-size: 18px;margin-bottom: 5px;height: auto;line-height: 1.45;border: 2px none rgb(35,159,254);border-bottom-width: 2px;margin-top: 3px;">Z-Scores ("Standard Scores") are a unit of Standard Deviation. They help with calculations of probability and distribution for Normal populations.<br></p>
+                    <h2 class="text-left" style="padding: 3px;margin: 5px;margin-bottom: 2px;margin-top: 5px;height: auto;font-size: 26px;padding-bottom: 2px;margin-left: 5px;line-height: 29px;">Formulas:</h2>
+                    <p style="width: 100%;text-align: left;padding: 10px;padding-top: 3px;color: rgb(0,0,0);font-size: 18px;margin-bottom: 5px;height: auto;line-height: 1.45;border: 2px none rgb(35,159,254);border-bottom-width: 2px;margin-top: 3px;">If you have:<br>&nbsp; &nbsp; &nbsp; &nbsp; Standard Deviation&nbsp; -&gt;&nbsp;<strong>σ&nbsp; &nbsp;&nbsp;</strong>(Sigma, symbol for Standard Deviation)&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; Mean (average)&nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp;-&gt;&nbsp;<strong>μ&nbsp; &nbsp;&nbsp;</strong>(Mu, symbol for Mean)<br>&nbsp; &nbsp; &nbsp; &nbsp; Any Value&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&gt;&nbsp;<strong>x&nbsp; &nbsp;&nbsp;</strong>(As
+                        long as population doesn't exclude it)<br>Then you have a&nbsp;<strong>Z-Score</strong>, where:<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>z = ( x -&nbsp;μ&nbsp;) /&nbsp;σ&nbsp;</strong><br><br>If you have:<br>&nbsp; &nbsp; &nbsp;
+                        &nbsp; Sample Standard Deviation&nbsp; -&gt;&nbsp;<strong><em>s</em></strong><br>&nbsp; &nbsp; &nbsp; &nbsp; Sample Mean&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        -&gt;&nbsp;<strong>x̄&nbsp; &nbsp; (x-bar)</strong><br>&nbsp; &nbsp; &nbsp; &nbsp; Any Value&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        -&gt;&nbsp;<strong>x</strong><br>Then you also have a&nbsp;<strong>Z-Score</strong>, where:<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>z = (x -&nbsp;x̄ ) /&nbsp;<em>s&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</em></strong>(They're the
+                        same thing)<br></p>
+                    <h2 class="text-left" style="padding: 3px;margin: 5px;margin-bottom: 2px;margin-top: 5px;height: auto;font-size: 26px;padding-bottom: 2px;margin-left: 5px;line-height: 29px;">Purpose:</h2>
+                    <p style="width: 100%;text-align: left;padding: 10px;padding-top: 3px;color: rgb(0,0,0);font-size: 18px;margin-bottom: 5px;height: auto;line-height: 1.45;border: 2px none rgb(35,159,254);border-bottom-width: 2px;margin-top: 3px;">What do they do?&nbsp; &nbsp;&nbsp;<strong>Z-Scores are helpful to:</strong>&nbsp;<br>&nbsp; &nbsp;&nbsp;<strong>-&nbsp; &nbsp; Show distance from the mean</strong><br>&nbsp; &nbsp;&nbsp;<strong>-&nbsp; &nbsp; Compare a result with it's population</strong><br><br>In
+                        English?<br><strong>Z-Scores tell you how far a value is from average</strong><br></p>
+                    <h2 class="text-left" style="padding: 3px;margin: 5px;margin-bottom: 2px;margin-top: 5px;height: auto;font-size: 26px;padding-bottom: 2px;margin-left: 5px;line-height: 29px;">Example:</h2>
+                    <p style="width: 100%;text-align: left;padding: 10px;padding-top: 3px;color: rgb(0,0,0);font-size: 18px;margin-bottom: 5px;height: auto;line-height: 1.45;border: 2px none rgb(35,159,254);border-bottom-width: 2px;margin-top: 3px;">Like how? Let's try this.<br><strong>Your math class had an exam.&nbsp;</strong><br><strong>Let's say you got 98 of 100 points on the test.</strong><br><strong>Your teacher announces that the class average was 78 of 100 points.&nbsp;</strong><br><strong>From the class's scores, she shared that the Standard Deviation is 10 points.&nbsp;</strong><br><br>Using
+                        your newfound knowledge, you can see that:&nbsp;<br>&nbsp; &nbsp; -&nbsp;<strong>σ (class's standard deviation = 10 points</strong><br>&nbsp; &nbsp; -&nbsp;<strong>μ (class average) = 78 points</strong><br><strong>&nbsp; &nbsp;</strong>&nbsp;-<strong>&nbsp;x (your score) = 98 points</strong><br>&nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Then, you can use your formula:<br><br>&nbsp; &nbsp;&nbsp;<strong>z = ( x -&nbsp;μ ) /&nbsp;σ&nbsp; &nbsp; --&gt;</strong>&nbsp; &nbsp;&nbsp;<strong>z = (98 - 78) / 10</strong><br>&nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>&gt;&gt; z = (20) / 10</strong><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>&gt;&gt; z = 2</strong><br><br>So, your Z-Score is 2, but what does that mean?<br><strong>&nbsp; &nbsp; In short, z = 2 means that:</strong><br>&nbsp;
+                        &nbsp; &nbsp; &nbsp; --&gt;&nbsp;<strong>Your score was better than around 98% of students</strong><br>&nbsp; &nbsp; &nbsp; &nbsp; --&gt;&nbsp;<strong>Only 2% of students performed better than you</strong><br><br>These percentages
+                        are calculated using the&nbsp;<strong>"Empirical Rule"&nbsp;(also called the&nbsp;"68-95-99.7% Rule")&nbsp;&nbsp;which really isn't as hard as it sounds</strong><br><br>More about the Empirical Rule? Here's Khan Academy's Explanation:&nbsp;
+                        <a
+                            href="https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/stats-normal-distributions/v/ck12-org-normal-distribution-problems-empirical-rule">Khan Academy: Normal Distribution</a><br></p>
+                </div>
+                <!-- End: 1. Paragraph Div -->
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
